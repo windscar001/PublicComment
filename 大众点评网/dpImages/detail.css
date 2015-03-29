@@ -1,0 +1,227 @@
+dianpingtuancssprefix
+{
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    word-break: break-all;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+body,
+table th,
+table td {
+    color: #333;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+body > * {
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+b {
+    font-weight: normal;
+}
+
+img {
+	width: 90%;
+	margin-bottom: 10px;
+}
+
+.detail-box .tit {
+    display: none;
+}
+
+.deal-more-detail .detail-box .tit {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #f8f8f8;
+    margin-left: -15px;
+    padding-left: 15px;
+}
+
+.deal-more-detail .detail-box .tit ~ * {
+	padding-top: 10px;
+}
+
+.deal-more-detail {
+    background-color: white;
+}
+
+.detail-box dl {
+	margin-bottom: 5px;
+}
+
+.detail-box dt {
+	color: #999;
+}
+
+table.detail-table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	line-height: 22px;
+}
+
+
+table.detail-table thead th {
+    display: none;
+    height: 0;
+    overflow: hidden;
+	text-align: left;
+	color: #999;
+	font-weight: normal;
+	/*border-bottom: 1px solid #878787;*/
+	background-image: url(tuanhome_divider_horizental.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	background-size: 1px auto;
+	padding: 3px 0 5px 0;
+}
+
+table.detail-table tbody th {
+	text-align: left;
+	color: #999;
+	font-weight: normal;
+	padding-top: 5px;
+}
+
+table.detail-table tbody td {
+    white-space: nowrap;
+}
+
+table.detail-table tbody td:first-child {
+    white-space: normal;
+}
+
+table.detail-table th:last-child,
+table.detail-table td:last-child {
+	text-align: right;
+	padding-right: 5px;
+}
+
+table.detail-table th:first-child,
+table.detail-table td:first-child {
+	text-align: left;
+    width: 70%;
+/*	padding-left: 15px; */
+}
+
+table.detail-table tr.total {
+	}
+
+table.detail-table tr.total td {
+	padding-top: 30px;
+    padding-bottom: 3px;
+    background-image: url(tuanhome_divider_horizental.png);
+    background-size: 1px auto;
+	background-position: 0px 15px;
+	background-repeat: repeat-x;
+}
+
+table.detail-table tr.total td.tc strong {
+    font-weight: normal;
+}
+table.detail-table tr.total td.tc:last-child strong {
+	font-weight: normal;
+	color: #f63;
+    font-size: 18px;
+}
+p.listitem{
+    padding-left:10px;
+}
+
+p.listitem:before {
+    content: "• ";
+    color: #999;
+    position:absolute;
+    left:2px;
+}
+
+/*	add by hotel; */
+
+.hotellist-box {
+    margin-right: -15px;
+}
+.hotellist-box li{
+    position: relative;
+    border-bottom: 1px solid #e1e1e1;
+}
+.hotellist-box li:last-child{
+    border-bottom: none;
+}
+.hotellist-box li:after{
+    content: '';
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -5px;
+    height: 9px;
+    width: 9px;
+    border: 2px solid #bbb;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg)
+}
+.hotellist-box a{
+    display: block;
+    padding: 7px 25px 12px 0;
+    color: #323232;
+    text-decoration: none;
+}
+.hotellist-box a:hover{
+    text-decoration: none;
+}
+.hotellist-box a h2 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.hotellist-box .star {
+    display: block;
+    width: 73px;
+    height: 12px;
+    vertical-align: middle;
+    background: url(http://i2.dpfile.com/s/c/app/hotel/i/star.png) no-repeat;
+    background-position: 0 -4px
+}
+.hotellist-box .star-50 {
+    background-position: 0 -4px
+}
+.hotellist-box .star-45 {
+    background-position: 0 -26px
+}
+.hotellist-box .star-40 {
+    background-position: 0 -48px
+}
+.hotellist-box .star-35 {
+    background-position: 0 -70px
+}
+.hotellist-box .star-30 {
+    background-position: 0 -90px
+}
+.hotellist-box .star-20 {
+    background-position: 0 -112px
+}
+.hotellist-box .star-10 {
+    background-position: 0 -134px
+}
+.hotellist-box .star-0 {
+    background-position: 0 -156px
+}
+
