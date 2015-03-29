@@ -51,19 +51,19 @@
 		249942761AC7ED6000250361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		249942781AC7ED6000250361 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2499427A1AC7ED6000250361 /* DZDP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DZDP-Prefix.pch"; sourceTree = "<group>"; };
-		2499427B1AC7ED6000250361 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2499427C1AC7ED6000250361 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2499427B1AC7ED6000250361 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../DZDP/DZDP/AppDelegate.h; sourceTree = "<group>"; };
+		2499427C1AC7ED6000250361 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../DZDP/DZDP/AppDelegate.m; sourceTree = "<group>"; };
 		2499427F1AC7ED6000250361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		249942811AC7ED6000250361 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		249942821AC7ED6000250361 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		249942811AC7ED6000250361 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../DZDP/DZDP/ViewController.h; sourceTree = "<group>"; };
+		249942821AC7ED6000250361 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../DZDP/DZDP/ViewController.m; sourceTree = "<group>"; };
 		249942841AC7ED6100250361 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2499428A1AC7ED6100250361 /* DZDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2499428B1AC7ED6100250361 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		249942931AC7ED6200250361 /* DZDPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DZDPTests-Info.plist"; sourceTree = "<group>"; };
 		249942951AC7ED6200250361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		249942971AC7ED6200250361 /* DZDPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZDPTests.m; sourceTree = "<group>"; };
-		249942A11AC7EEF600250361 /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarViewController.h; sourceTree = "<group>"; };
-		249942A21AC7EEF600250361 /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarViewController.m; sourceTree = "<group>"; };
+		249942A11AC7EEF600250361 /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTabBarViewController.h; path = ../DZDP/DZDP/CustomTabBarViewController.h; sourceTree = "<group>"; };
+		249942A21AC7EEF600250361 /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTabBarViewController.m; path = ../DZDP/DZDP/CustomTabBarViewController.m; sourceTree = "<group>"; };
 		249942A41AC7EF8A00250361 /* FirstPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPageViewController.h; sourceTree = "<group>"; };
 		249942A51AC7EF8A00250361 /* FirstPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPageViewController.m; sourceTree = "<group>"; };
 		249942A71AC7EFAB00250361 /* BuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
@@ -102,6 +102,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		245939E01AC7FEA8003C98D4 /* 通用 */ = {
+			isa = PBXGroup;
+			children = (
+				2499427B1AC7ED6000250361 /* AppDelegate.h */,
+				2499427C1AC7ED6000250361 /* AppDelegate.m */,
+				249942A11AC7EEF600250361 /* CustomTabBarViewController.h */,
+				249942A21AC7EEF600250361 /* CustomTabBarViewController.m */,
+				249942811AC7ED6000250361 /* ViewController.h */,
+				249942821AC7ED6000250361 /* ViewController.m */,
+			);
+			name = "通用";
+			path = "../../通用";
+			sourceTree = "<group>";
+		};
 		249942601AC7ED5E00250361 = {
 			isa = PBXGroup;
 			children = (
@@ -135,14 +149,9 @@
 		249942721AC7ED6000250361 /* DZDP */ = {
 			isa = PBXGroup;
 			children = (
+				245939E01AC7FEA8003C98D4 /* 通用 */,
 				249942B81AC7F44200250361 /* images */,
-				2499427B1AC7ED6000250361 /* AppDelegate.h */,
-				2499427C1AC7ED6000250361 /* AppDelegate.m */,
-				249942A11AC7EEF600250361 /* CustomTabBarViewController.h */,
-				249942A21AC7EEF600250361 /* CustomTabBarViewController.m */,
 				2499427E1AC7ED6000250361 /* Main.storyboard */,
-				249942811AC7ED6000250361 /* ViewController.h */,
-				249942821AC7ED6000250361 /* ViewController.m */,
 				249942A41AC7EF8A00250361 /* FirstPageViewController.h */,
 				249942A51AC7EF8A00250361 /* FirstPageViewController.m */,
 				249942A71AC7EFAB00250361 /* BuyViewController.h */,
@@ -510,6 +519,7 @@
 				2499429D1AC7ED6200250361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2499429E1AC7ED6200250361 /* Build configuration list for PBXNativeTarget "DZDPTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +528,7 @@
 				249942A01AC7ED6200250361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
